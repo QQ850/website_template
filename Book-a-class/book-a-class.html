@@ -1,0 +1,170 @@
+<!--google font style-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a class</title>
+
+    <!--CSS stylesheet for Book a class-->
+    <link rel="stylesheet" href="book-a-class.css">
+
+    <!--script for icons-->
+    <script src="https://kit.fontawesome.com/93dbff4d45.js" crossorigin="anonymous"></script>
+    
+    <!--Bluery Rotate images for first section: welcome-->
+    <link rel="stylesheet" href="../HomePage/blueberry.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="../HomePage/blueberry.js"></script>
+
+
+    <script>
+    $(window).load(function() {
+    $('.blueberry').blueberry();
+    });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!--top line-->
+        <div id = "top"> 
+            <div id = "news">Online Classes Are Open Now!
+                <span><a href="../login_system/index.html"><i class='fa fa-user-circle'></i>Login</a></span>
+            </div>
+        </div>
+    
+        <!--buttons navigator-->
+        <div id = "navigator">
+            <div class = "mainButton" style="position: relative; text-align:left;">
+                <img src="../HomePage/logo.png" width="25%">
+                <span style="position:absolute; top:30px; left:30px"><a href = "../HomePage/homePage.html">L&M Academic</a></span>
+            </div>
+            <div id="bar" class = "program"><a href="../HomePage/homePage.html">Home</a></div>
+            <div id="bar" class = "book"><a href="../Book-a-class/book-a-class.html">Book a class</a></div>
+            <div id="bar" class="about"><a href="../About/about.html">About Us</a></div>
+            <div id="bar" calss="contact"><a href="../Contact/contact.html">Contact Us</a></div>
+        </div>
+     
+        <!--First banner: Welcome part-->
+        <div class="welcome-container">
+            <div class="blueberry" id="welcome">
+                <ul class="slides">
+                    <!-- img resize: 700 x 463 -->
+                    <li><img src="../HomePage/mainPage2.png" alt="Language img"></li>
+                    <li><img src="../HomePage/mainPage3.png" alt="Math img"></li>       
+                </ul>
+            </div>
+    
+            <div id="welcome">
+                <p>Classes</p>
+                <p style="font-family: 'Quicksand', sans-serif; font-size: 0.8em; padding-left: 10%; padding-right: 10%;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        
+        <!--class list section-->
+        <div class="class-list" style="font-family: 'Quicksand', sans-serif; text-align: center; font-size: 25px;">
+            <p><strong>Book a Class Today</strong></p>
+            <!-- online classes and onsite class-->
+            <div class="class-type" style="font-size: 20px;">
+                <p class="type"><a href="book-a-class.html" style="text-decoration: none; color: black;">Online Classes</a></p>
+                <p class="type"><a href="book-a-class.html" style="text-decoration: none; color: black;">Onsite Classes</a></p>
+            </div>
+
+            <hr style="width: 80%; margin-left: auto; border-top: 1px solid rgb(27, 27, 110);">
+
+            <table class="table" style="font-size: 20px;" width="50%">
+                <tr>
+                    <td>Math (3 - 5 years)</td>
+                    <td colspan="3">Mon, Wed<br>1hr<br>$20</td>
+                    <td><a href="../book-a-class.html">
+                        Book Now</a>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>Math (7 + years)</td>
+                    <td colspan="3">Tue, Thu<br>1hr<br>$20</td>
+                    <td><a href="../book-a-class.html">Book Now</a></td>
+                </tr>
+
+                <tr>
+                    <td>English (3 - 5 years)</td>
+                    <td colspan="3">Mon, Wed<br>1hr<br>$20</td>
+                    <td><a href="../book-a-class.html">Book Now</a></td>
+                </tr>
+
+                <tr>
+                    <td>English (7+ years)</td>
+                    <td colspan="3">Tue, Thu<br>1hr<br>$20</td>
+                    <td><a href="../book-a-class.html">Book Now</a></td>
+                </tr>
+
+                <tr>
+                    <td>Spanish (3 - 5 years)</td>
+                    <td colspan="3">Mon, Wed<br>1hr<br>$20</td>
+                    <td><a href="../book-a-class.html">Book Now</a></td>
+                </tr>
+
+                <tr>
+                    <td>Spanish (7+ years)</td>
+                    <td colspan="3">Tue, Thu<br>1hr<br>$20</td>
+                    <td><a href="../book-a-class.html">Book Now</a></td>
+                </tr>
+
+                <tr>
+                    <td>Chinese (3 - 5 years)</td>
+                    <td colspan="3">Mon, Wed<br>1hr<br>$20</td>
+                    <td><a href="../book-a-class.html">Book Now</a></td>
+                </tr>
+
+                <tr>
+                    <td>Chinese (7+ years)</td>
+                    <td colspan="3">Tue, Thu<br>1hr<br>$20</td>
+                    <td><a href="../book-a-class.html">Book Now</a></td>
+                </tr>
+                
+            </table>
+        </div>      
+
+
+        <hr style="width: 80%; margin-top: 50px;margin-left: auto; border-top: 1px solid rgb(27, 27, 110);">
+
+
+        <!--end line-->
+        <div class = "end"> 
+            <div class = "contact-info">
+                <div class="left-side">
+                    <h4>Address</h4>
+                    <p>xxxxx xxx xxxx<br>
+                        xxxxx, xx xxxxx<br>
+                    </p>
+        
+                    <h4>Phone</h4>
+                    <p>(xxx)-xxx-xxx</p>
+        
+                    <h4>Email</h4>
+                    <p>example@gamil.com</p>
+                </div>
+                        
+                <div class="right-side">
+                    <h4> Our Mission </h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <br>Aspernatur unde eaque omnis vero quae pariatur architecto
+                        <br> adipisci voluptate! Iusto molestias, velit quae consequatur
+                        <br> minus ut accusamus quis nemo vel magni.
+                    </p>
+                    <h2><a href="../Contact/contact.html">Q & A</a></h2>
+                    <p>Don't hasitate to contact us if you have any questions!</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

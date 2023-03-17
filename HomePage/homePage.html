@@ -1,0 +1,181 @@
+<!--google font style-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS stylesheet for Home Page-->
+    <link rel="stylesheet" href="homePage.css">
+    <!--script for icons-->
+    <script src="https://kit.fontawesome.com/93dbff4d45.js" crossorigin="anonymous"></script>
+    <title>L&M Academic</title>
+
+    <!--Bluery Rotate images for first section: welcome-->
+    <link rel="stylesheet" href="../HomePage/blueberry.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="../HomePage/blueberry.js"></script>
+
+
+    <script>
+    $(window).load(function() {
+    $('.blueberry').blueberry();
+    });
+    </script>
+
+</head>
+
+<body>
+<div class="container">
+    <!--top line-->
+    <div id = "top"> 
+        <div id = "news">Online Classes Are Open Now!
+            <span><a href="../login_system/index.html"><i class='fa fa-user-circle'></i>Login</a></span>
+        </div>
+    </div>
+
+    <!--buttons navigator-->
+    <div id = "navigator">
+        <div class = "mainButton" style="position: relative; text-align:left;">
+            <img src="logo.png" width="25%">
+            <span style="position:absolute; top:30px; left:30px"><a href = "../HomePage/homePage.html">L&M Academic</a></span>
+        </div>
+        <div id="bar" class = "program"><a href="../HomePage/homePage.html">Home</a></div>
+        <div id="bar" class = "book"><a href="../Book-a-class/book-a-class.html">Book a class</a></div>
+        <div id="bar" class="about"><a href="../About/about.html">About Us</a></div>
+        <div id="bar" calss="contact"><a href="../Contact/contact.html">Contact Us</a></div>
+    </div>
+ 
+     <!--First banner: Welcome part-->
+    <div class="welcome-container">
+        <div class="blueberry" id="welcome">
+            <ul class="slides">
+                <!-- img resize: 700 x 463 -->
+                <li><img src="mainPage1.png" alt="welcom img"></li>
+                <li><img src="mainPage2.png" alt="Language img"></li>
+                <li><img src="mainPage3.png" alt="Math img"></li>
+                <li><img src="mainPage4.png" alt="Classroom img"></li>        
+            </ul>
+        </div>
+
+        <div id="welcome">
+            <p>The Best Learning Classes for Kids
+                <br><br>
+                <span style="font-family: 'Quicksand', sans-serif; font-size: 0.8em;">Welcom to L&M Academic</span>
+                <br><br>
+                <span class="join-us-button" style="font-family: 'Quicksand', sans-serif; font-size:20px; font-weight: bold; ">
+                    <a href="../Book-a-class/book-a-class.html">Join us now</a>
+                </span>
+            </p>
+        </div>
+    </div>
+
+    
+
+    <!--Second banner: brief description-->
+    <div class="second-banner">Join us online or at our studio for a fun & educational day !<br><br>Pick from language or math lessons.</div>
+
+    <!--Third section: Classes lists-->
+        <!--Class brief description-->
+    <div class="classes-list" style="text-align: center; font-family: 'Quicksand', sans-serif;">
+        <div class="class-topic"> 
+            <div style="font-weight: bold; font-size: 60px;">Classes</div>
+            <br>
+            <div style="font-size: 20px; margin-left: 100px;
+                margin-right: 95px;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid nulla minima quaerat possimus vitae, expedita itaque laboriosam maxime illum neque ullam repudiandae doloribus, nemo maiores facilis culpa libero dolores voluptatum!
+            </div>
+        </div>
+
+        <!--Picture + text about each class-->
+        <!--image resize: 500 x 333-->
+        <!--Class One-->
+        <div id="class-list-container">
+            <div class="classOne">
+                <img src="class-img1.jpg" alt="language class">
+            </div>
+            
+            <div class="classOne">
+                <p style="font-size: 35px;">
+                    <b>Learning a specific Language</b>
+                 </p>
+                 <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, asperiores porro id tenetur quasi fuga perferendis non totam excepturi repellendus provident exercitationem commodi maiores nobis error distinctio quis, suscipit amet!   
+                </p>
+                <p style="background-color: lightblue;
+                    border-color: lightblue;
+                    border-style: solid;
+                    border-width: 10px 10px;
+                    text-align: center;
+                    width: 25%;
+                    margin-top: 10%;">
+                    <a href="../book-a-class.html">Book Now</a> 
+                </p>
+            </div>
+        </div>
+        <!--Class Two-->
+        <div id="class-list-container">
+            <div class="classTwo">
+                <p style="font-size: 35px; text-align: left;">
+                    <b>Learning Math</b>
+                 </p>
+                 <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, asperiores porro id tenetur quasi fuga perferendis non totam excepturi repellendus provident exercitationem commodi maiores nobis error distinctio quis, suscipit amet!   
+                </p>
+                <p style="background-color: lightblue;
+                    border-color: lightblue;
+                    border-style: solid;
+                    border-width: 10px 10px;
+                    text-align: center;
+                    width: 25%;
+                    margin-top: 10%;">
+                    <a href="../book-a-class.html">Book Now</a>
+                </p>
+            </div>
+            <div class="classTwo">
+                <img src="class-img2.jpg" alt="language class">
+            </div>
+        </div>
+    </div>
+
+    <!--Bottom Section-->
+    <img src="bottom img.jpg" alt="children rising hands" width="80%" style="margin-left: 200px;width:76.8%;margin-top: 90px;margin-bottom: 100px;">
+
+
+    <!--end line-->
+    <div class = "end"> 
+        <div class = "contact-info">
+            <div class="left-side">
+                <h4>Address</h4>
+                <p>xxxxx xxx xxxx<br>
+                    xxxxx, xx xxxxx<br>
+                </p>
+    
+                <h4>Phone</h4>
+                <p>(xxx)-xxx-xxx</p>
+    
+                <h4>Email</h4>
+                <p>example@gamil.com</p>
+            </div>
+                      
+            <div class="right-side">
+                <h4> Our Mission </h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    <br>Aspernatur unde eaque omnis vero quae pariatur architecto
+                    <br> adipisci voluptate! Iusto molestias, velit quae consequatur
+                    <br> minus ut accusamus quis nemo vel magni.
+                </p>
+                <h2><a href="../Contact/contact.html">Q & A</a></h2>
+                <p>Don't hasitate to contact us if you have any questions!</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
